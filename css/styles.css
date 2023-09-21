@@ -24,10 +24,12 @@ p {
 }
 img {
   display: block;
-  margin-bottom: 32px;
+  max-width: 100%;
+  height: auto;
+  
 }
 .container {
-  width: 1470px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -157,6 +159,11 @@ img {
   padding-bottom: 120px;
   background: var(--CLOUD, #f4f4fd);
   text-align: center;
+  
+}
+
+.div-team{
+  padding-bottom: 32px;
 }
 
 .main-subtitle {
